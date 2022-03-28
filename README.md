@@ -13,3 +13,7 @@ This repo is the demo for real-time face attributes editing by using webcam
 
 ## demo
 python demo_stgan.py
+
+
+## acknowledgement
+[3DDFA_V2](https://github.com/cleardusk/3DDFA_V2)
