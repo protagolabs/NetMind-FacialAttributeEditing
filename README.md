@@ -17,6 +17,7 @@ python demo_stgan.py
 ## showcase
 
 ![showcase](https://github.com/protagolabs/NetMind-FacialAttributeEditing/blob/main/demo_stgan.gif)
+
 from left -> right: Original, Bangs, Eyeglasses, Mouth_Slightly_Open,  Mustache, Pale_Skin
 
 ## acknowledgement
