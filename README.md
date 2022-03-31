@@ -8,13 +8,21 @@ This repo is the demo for real-time face attributes editing by using webcam
 2 install deps:
 
 conda create --name demo_stgan python=3.8
+
 conda activate demo_stgan
+
 conda install matplotlib
+
 pip install opencv-python
+
 pip install pyyaml
+
 pip install torch torchvision torchaudio
+
 pip install torchsummary
+
 pip install Cython
+
 bash build.sh
 
 3 download pretrained [weights](https://drive.google.com/file/d/1mgl5F5ze5qPls6vjCYwnshlMmTeg5RuE/view?usp=sharing) and put it into ./weights/stgan/ 
