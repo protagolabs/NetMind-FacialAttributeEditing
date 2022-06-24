@@ -1,0 +1,20 @@
+[default]
+# Flask-Restplus settings
+RESTPLUS_SWAGGER_UI_DOC_EXPANSION = "list"
+RESTPLUS_VALIDATE = true
+RESTPLUS_MASK_SWAGGER = false
+RESTPLUS_ERROR_404_HELP = false
+
+FLASK_DEBUG = true
+DOMAIN = "dev"
+LOG_NAME = "EB_Template-DEV"
+
+[default-dev]
+FLASK_DEBUG = true
+DOMAIN = "dev"
+LOG_NAME = "EB_Template-DEV"
+
+[default-prod]
+FLASK_DEBUG = false
+DOMAIN = "prod"
+LOG_NAME = "EB_Template-PROD"
