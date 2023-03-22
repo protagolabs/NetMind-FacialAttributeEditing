@@ -26,4 +26,4 @@ if __name__ == "__main__":
     # Setting debug to True enables debug output. This line should be
     # removed before deploying a production app.
     application.debug = False
-    application.run(host='0.0.0.0', port=8080, threaded=False, processes=1, use_reloader=False)
+    application.run(host='0.0.0.0', port=8081, threaded=False, processes=1, use_reloader=False)
